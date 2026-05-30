@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cute Test Page</title>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to right, #ffd6e8, #d6f0ff);
+      font-family: Arial, sans-serif;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      width: 300px;
+    }
+
+    h1 {
+      color: #ff5c8a;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      background: #ff5c8a;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background: #ff3d73;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <h1>🌸 Hello! 🌸</h1>
+    <p>This is a cute HTML test page 💖</p>
+
+    <button onclick="showMessage()">
+      Click Me ✨
+    </button>
+  </div>
+
+  <script>
+    function showMessage() {
+      alert("Yay! Your HTML is working 🎉");
+    }
+  </script>
+
+</body>
+</html>
